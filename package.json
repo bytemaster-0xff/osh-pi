@@ -1,0 +1,12 @@
+{
+    "name": "osh-sensor-utils",
+    "version": "0.2.0",
+    "description": "Open Source Sensor Utils",
+    "main": "app.js",
+    "scripts": {
+      "start": "node index.js"
+    },
+    "dependencies": {
+        "xmlbuilder":"^10.0.0"
+    }
+}

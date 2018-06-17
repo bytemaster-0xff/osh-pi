@@ -1,0 +1,10 @@
+[Unit]
+Description = Open Sensor Hub Servie
+After network.target = Osh.service
+
+[Service]
+Type = forking
+ExecStart = /usr/local/bin/osh-base-install-1.3.1/osh.sh start
+ExecStop = /usr/local/bin/osh-base-install-1.3.1/osh.sh stop
+ExecReload = /usr/local/bin/osh-base-install-1.3.1/osh.sh reload
+
